@@ -3,7 +3,7 @@ name: Build Mimic
 on:
   push:
     tags:
-      - "v1.0.0"   # 例如 v1.0.0
+      - "v*.*.*"   # 例如 v1.0.0
   workflow_dispatch:
 
 jobs:
