@@ -1,10 +1,10 @@
-module stealth-proxy
+module Mimic
 
-go 1.22
+go 1.18
 
 require (
-	github.com/BurntSushi/toml v1.3.2
-	golang.org/x/net v0.17.0
+	github.com/BurntSushi/toml v1.5.0
+	golang.org/x/net v0.43.0
 )
 
-require golang.org/x/text v0.13.0 // indirect
+require golang.org/x/text v0.28.0 // indirect
